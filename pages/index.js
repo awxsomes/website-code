@@ -125,7 +125,7 @@ export default function Home() {
           <p className="display: inline-block tablet:m-10 mt-2 text-base laptop:text-2xl w-full laptop:w-3/5">
             {data.aboutpara}
           </p>
-          <img className = "abtLogo" src="https://media.discordapp.net/attachments/880478048766537798/1247029692456767550/image.png?ex=665e8a67&is=665d38e7&hm=9ab4dee663491b8d8148c8540327e08146f4e24f1f209d24900bf150703b9189&=&format=webp&quality=lossless&width=755&height=585" />
+          <img className = "abtLogo" src="https://media.discordapp.net/attachments/880478048766537798/1246990864572485642/IMG_1895.jpg?ex=665e663e&is=665d14be&hm=24d181f95b2464e2d70a253daa198a183e9552119077d167a9714f11e895caf5&=&format=webp&width=780&height=585" />
         </div>
         <Footer />
       </div>
