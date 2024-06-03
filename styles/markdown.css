@@ -80,3 +80,22 @@
 .markdown-class img {
   @apply max-h-96 w-full my-5 object-cover rounded-lg shadow-lg;
 }
+
+.socials {
+  height: 2.3em;
+  width: 2.3em;
+}
+
+
+.head {
+  background-color: '#f4511e';
+}
+
+.abtLogo {
+  height: 20em;
+  width: 27em;
+  display:inline-block;
+  top: -6em;
+  position:relative;
+  @apply rounded-lg;
+}

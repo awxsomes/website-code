@@ -53,6 +53,7 @@ export default function Home() {
       {data.showCursor && <Cursor />}
       <Head>
         <title>{data.name}</title>
+        <link rel="icon" type="image/x-icon" href="https://media.discordapp.net/attachments/880478048766537798/1246992184339595264/half_logo.png?ex=665e6778&is=665d15f8&hm=d3c6da9532083bb01aca8f04a6b7d2a9c27cad7d5c22fe5d5a0b3b9d5b13da7e&=&format=webp&quality=lossless&width=380&height=585" />
       </Head>
 
       <div className="gradient-circle"></div>
@@ -121,9 +122,10 @@ export default function Home() {
         )}
         <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
           <h1 className="tablet:m-10 text-4xl text-bold">About.</h1>
-          <p className="tablet:m-10 mt-2 text-large laptop:text-2xl w-full laptop:w-3/5">
+          <p className="display: inline-block tablet:m-10 mt-2 text-base laptop:text-2xl w-full laptop:w-3/5">
             {data.aboutpara}
           </p>
+          <img className = "abtLogo" src="https://media.discordapp.net/attachments/880478048766537798/1247029692456767550/image.png?ex=665e8a67&is=665d38e7&hm=9ab4dee663491b8d8148c8540327e08146f4e24f1f209d24900bf150703b9189&=&format=webp&quality=lossless&width=755&height=585" />
         </div>
         <Footer />
       </div>

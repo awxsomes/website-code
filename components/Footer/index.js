@@ -17,9 +17,10 @@ const Footer = ({}) => {
         </div>
       </div>
       <h1 className="text-sm text-bold mt-2 laptop:mt-10 p-2 laptop:p-0">
-        Made With ❤ by{" "}
+        Made With ❤ by the Glenelg High School Competitive Programming Team <br></br> 
+        Coded by {""}
         <Link href="https://www.linkedin.com/in/kenneth-wang-854606258/">
-          <a className="underline underline-offset-1">Team Co-Founder and Co-President Kenneth Wang</a>
+          <a className="underline underline-offset-1">Kenneth Wang</a>
         </Link>
       </h1>
     </>
