@@ -125,7 +125,7 @@ export default function Home() {
           <p className="display: inline-block tablet:m-10 mt-2 text-base laptop:text-2xl w-full laptop:w-3/5">
             {data.aboutpara}
           </p>
-          <img className = "abtLogo" src="https://github.com/Glenelg-Competitive-Programming/website-code/blob/main/comp%20prog%20club%20img%202.jpg?raw=true" />
+          <img className = "abtLogo" src="https://glenelg-computing-website.s3.amazonaws.com/comp+prog+club+img+2.jpg" />
         </div>
         <Footer />
       </div>
