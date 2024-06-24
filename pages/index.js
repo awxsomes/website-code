@@ -53,7 +53,7 @@ export default function Home() {
       {data.showCursor && <Cursor />}
       <Head>
         <title>{data.name}</title>
-        <link rel="icon" type="image/x-icon" href="https://media.discordapp.net/attachments/880478048766537798/1246992184339595264/half_logo.png?ex=665e6778&is=665d15f8&hm=d3c6da9532083bb01aca8f04a6b7d2a9c27cad7d5c22fe5d5a0b3b9d5b13da7e&=&format=webp&quality=lossless&width=380&height=585" />
+        <link rel="icon" type="image/x-icon" href="https://glenelg-computing-website.s3.amazonaws.com/favicon-32x32.png" />
       </Head>
 
       <div className="gradient-circle"></div>
@@ -125,7 +125,7 @@ export default function Home() {
           <p className="display: inline-block tablet:m-10 mt-2 text-base laptop:text-2xl w-full laptop:w-3/5">
             {data.aboutpara}
           </p>
-          <img className = "abtLogo" src="https://glenelg-computing-website.s3.amazonaws.com/comp+prog+club+img+2.jpg" />
+          <img className = "abtLogo" src="https://glenelg-computing-website.s3.amazonaws.com/sberry_research.jpg" />
         </div>
         <Footer />
       </div>
